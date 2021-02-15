@@ -41,5 +41,5 @@ jobs:
           node zhima.js
         env:
           TZ: Asia/shanghai
-          BARK_PUSH: ${{ secrets.BARK_PUSH }}
+          PUSH_KEY: ${{ secrets.PUSH_KEY }}
           ZM_zhimabody: ${{ secrets.ZM_zhimabody }}
