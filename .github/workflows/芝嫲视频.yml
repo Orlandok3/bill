@@ -43,3 +43,4 @@ jobs:
           TZ: Asia/shanghai
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           ZM_zhimabody: ${{ secrets.ZM_zhimabody }}
+          ZM_zhimatxbody: ${{ secrets.ZM_zhimatxbody }}
